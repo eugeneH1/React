@@ -4,6 +4,7 @@ import Products from "./Products";
 import Rating from "./Rating";
 import JumboTronComponent from "./JumboTronComponent";
 import UserForm from "./UserForm";
+import GitHub from "./GitHub";
 
 
 function formatName(user) {
@@ -20,7 +21,8 @@ function App() {
   return (
     <div className="App">
       {/*<Products/>*/}
-        <UserForm/>
+      {/*  <UserForm/>*/}
+        <GitHub />
 
         {/*<JumboTronComponent>*/}
         {/*    This is a long sentence, and I want to insert content into the*/}
